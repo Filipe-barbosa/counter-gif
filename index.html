@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Import Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container ">
+    <h1 class="title">Contagem Regressiva!</h1>
+    <div id="home">
+
+      <div class="input-group game-input">
+        <label> Tempo:</label>
+        <input type="text" class="form-control" />
+
+        <div class="input-group-append">
+          <button onclick="starthome()" class="btn>Basic"> Iniciar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="Countdown">
+    <div class="gif">
+      <img src="bruxo.gif"> </img>
+    </div>
+    <p id="contador"></p>
+  </div>
+
+  <div id="Success">
+    <div class="gifp">
+      <img src="pele.gif"> </img>
+    </div>
+    <button onclick="executeloop()" class="btn>Basic"> Resetar</button>
+
+  </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
